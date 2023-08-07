@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+section {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+
+ul {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  user-select: none;
+  margin: 20px;
+}
+
+span {
+  font-size: 30px;
+}
+
+#hello {
+  background-color: peru;
+}
+
+#hello span {
+  background-color: aquamarine;
+}
+
+#hello li {
+  cursor: pointer;
+}
+
+#bye {
+  background-color: seagreen;
+}
+
+#bye span {
+  background-color: blanchedalmond;
+}
+
+.dragging {
+  background-color: darksalmon !important;
+}
